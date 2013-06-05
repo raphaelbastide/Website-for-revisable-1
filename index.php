@@ -26,7 +26,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<body>
 	<header>
 		<div class="titles">
-			<h1>Réviasble 1</h1>
+			<h1>Révisable 1</h1>
 			<h2>Versioned physical sculpture exposed at iMAL, Brussels</h2>
 			<nav role="navigation" class="menu">
 				<ul>
@@ -38,10 +38,11 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div class="main-content">
 	<div id="versions" class="contentbox">
 		<div class="inner">
-			<div class="vbox" id="v0_9_3">
+			<div class="vbox current" id="v0_9_3">
 				<img width="800" height="533" title="Révisable 1 v0.1" src="img/0_1.jpg" />
 				<ul class="caption">
 					<li class="version">version: 0.1</li>
+					<li class="contributor">contributor: Raphaël Bastide</li>
 					<li class="date">date: 2013-06-5</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.1/PIECE">on GitHub</a></li>
 				</ul>
@@ -53,7 +54,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 			<?php echo markdown($readme); ?>
 		</div>
 		<div class="piece textbox">
-			<h2>Current state of the PIECE file</h2>
+			<h2>Current code</h2>
 			<pre><?php echo markdown($piece); ?></pre>
 		</div>
 		<div class="calendar">
