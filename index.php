@@ -44,7 +44,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 					<li class="version">version: 1.0</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
 					<li class="date">date: 2013-06-5</li>
-					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.2/PIECE">on GitHub</a></li>
+					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v1.0/PIECE">on GitHub</a></li>
 				</ul>
 			</div>
 			<div class="vbox" id="v0.2">
