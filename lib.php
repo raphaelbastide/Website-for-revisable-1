@@ -61,6 +61,7 @@ function cache_text_files() {
   cache_file(get_raw_url('README.md'), __DIR__ . '/cache/README.md');
   cache_file(get_raw_url('PIECE'), __DIR__ . '/cache/PIECE');
   cache_file(get_raw_url('CONTRIBUTORS'), __DIR__ . '/cache/CONTRIBUTORS');
+  cache_file(get_raw_url('INSTRUCTIONS.md'), __DIR__ . '/cache/INSTRUCTIONS.md');
 }
 
 // Fetch images from GitHub and cache them

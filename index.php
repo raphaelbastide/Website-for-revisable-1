@@ -8,10 +8,10 @@ if (!file_exists(__DIR__. '/cache/README.md')) {
   cache_all();
 }
 
-$readme = file_get_contents(__DIR__. '/README.md');
-$instructions = file_get_contents(__DIR__. '/INSTRUCTIONS.md');
-$piece = file_get_contents(__DIR__. '/PIECE');
-$contributors = file_get_contents(__DIR__. '/CONTRIBUTORS');
+$readme = file_get_contents(__DIR__. '/cache/README.md');
+$instructions = file_get_contents(__DIR__. '/cache/INSTRUCTIONS.md');
+$piece = file_get_contents(__DIR__. '/cache/PIECE');
+$contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 ?>
 <!doctype html>
 <head>
