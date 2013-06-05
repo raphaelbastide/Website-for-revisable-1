@@ -1,11 +1,17 @@
 <?php
 
-require_once './markdown.php';
+require_once __DIR__ . '/config.php';
+require_once __DIR__ . '/lib.php';
+require_once __DIR__ . '/markdown.php';
 
-$readme = file_get_contents('../README.md');
-$instructions = file_get_contents('../INSTRUCTIONS.md');
-$piece = file_get_contents('../PIECE');
-$contributors = file_get_contents('../CONTRIBUTORS');
+if (!file_exists(__DIR__. '/cache/README.md')) {
+  cache_all();
+}
+
+$readme = file_get_contents(__DIR__. '/README.md');
+$instructions = file_get_contents(__DIR__. '/INSTRUCTIONS.md');
+$piece = file_get_contents(__DIR__. '/PIECE');
+$contributors = file_get_contents(__DIR__. '/CONTRIBUTORS');
 ?>
 <!doctype html>
 <head>
