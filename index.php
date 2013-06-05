@@ -39,7 +39,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div id="versions" class="contentbox">
 		<div class="inner">
 			<div class="vbox" id="v0_9_3">
-				<img width="800" height="533" title="Révisable 1 v0.1" src="img/test.gif" />
+				<img width="800" height="533" title="Révisable 1 v0.1" src="img/0_1.jpg" />
 				<ul class="caption">
 					<li class="version">version: 0.1</li>
 					<li class="date">date: 2013-06-5</li>
