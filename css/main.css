@@ -51,6 +51,7 @@ nav li.H3{
 }
 #versions{
     padding-top:110px;
+	overflow:hidden;
 }
 #textboxes{
 	width:100%;

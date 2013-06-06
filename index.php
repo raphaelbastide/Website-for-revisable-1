@@ -50,7 +50,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 			<div class="vbox" id="v0.2">
 				<img width="800" height="533" title="Révisable 1 v0.2" src="img/0_2.jpg" />
 				<ul class="caption">
-					<li class="version">version: 0.2</li>
+					<li class="version">version: 0.2 (beta)</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
 					<li class="date">date: 2013-06-5</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.2/PIECE">on GitHub</a></li>
@@ -59,7 +59,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 			<div class="vbox" id="v0_1">
 				<img width="800" height="533" title="Révisable 1 v0.1" src="img/0_1.jpg" />
 				<ul class="caption">
-					<li class="version">version: 0.1</li>
+					<li class="version">version: 0.1 (beta)</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
 					<li class="date">date: 2013-06-5</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.1/PIECE">on GitHub</a></li>
@@ -77,7 +77,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 		</div>
 		<div class="calendar">
 			<h2>Calendar</h2>
-			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=550&amp;wkst=2&amp;hl=en_GB&amp;bgcolor=%23ffffff&amp;src=6t1d3866v675jhfkhhoeo5l4u0%40group.calendar.google.com&amp;color=%23711616&amp;ctz=Europe%2FParis" style=" border-width:0 " width="550" height="550" frameborder="0" scrolling="no"></iframe>
+			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=550&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=6t1d3866v675jhfkhhoeo5l4u0%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Europe%2FParis" style=" border-width:0 " width="550" height="550" frameborder="0" scrolling="no"></iframe>
 		</div>
 		<div class="instructions textbox">
 			<?php echo markdown($instructions); ?>
