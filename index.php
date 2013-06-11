@@ -38,12 +38,21 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div class="main-content">
 	<div id="versions" class="contentbox">
 		<div class="inner">
+			<div class="vbox current" id="v2.0">
+				<img width="800" height="533" title="Révisable 1 v2.0" src="img/2_0.jpg" />
+				<ul class="caption">
+					<li class="version">version: 2.0</li>
+					<li class="contributor">contributor: Romain Poirier</li>
+					<li class="date">date: 2013-06-11</li>
+					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v2.0/PIECE">on GitHub</a></li>
+				</ul>
+			</div>
 			<div class="vbox current" id="v1.0">
 				<img width="800" height="533" title="Révisable 1 v1.0" src="img/1_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 1.0</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
-					<li class="date">date: 2013-06-5</li>
+					<li class="date">date: 2013-06-05</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v1.0/PIECE">on GitHub</a></li>
 				</ul>
 			</div>
@@ -52,7 +61,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 				<ul class="caption">
 					<li class="version">version: 0.2 (beta)</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
-					<li class="date">date: 2013-06-5</li>
+					<li class="date">date: 2013-06-05</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.2/PIECE">on GitHub</a></li>
 				</ul>
 			</div>
@@ -61,7 +70,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 				<ul class="caption">
 					<li class="version">version: 0.1 (beta)</li>
 					<li class="contributor">contributor: Raphaël Bastide</li>
-					<li class="date">date: 2013-06-5</li>
+					<li class="date">date: 2013-06-05</li>
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v0.1/PIECE">on GitHub</a></li>
 				</ul>
 			</div>
