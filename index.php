@@ -30,7 +30,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 			<h2>Versioned physical sculpture exposed at iMAL, Brussels</h2>
 			<nav role="navigation" class="menu">
 				<ul>
-					<li class="H1"><a href="#versions">Versions</a></li>
+					<li class="h1"><a href="#versions">Versions</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -38,7 +38,16 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div class="main-content">
 	<div id="versions" class="contentbox">
 		<div class="inner">
-			<div class="vbox current" id="v4.0">
+			<div class="vbox current" id="v5.0">
+				<img width="800" height="533" title="Révisable 1 v5.0" src="img/5_0.jpg" />
+				<ul class="caption">
+					<li class="version">version: 5.0</li>
+					<li class="contributor">contributor: Vincent Evrard</li>
+					<li class="date">date: 2013-07-02</li>
+					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v5.0/PIECE">on GitHub</a></li>
+				</ul>
+			</div>
+			<div class="vbox" id="v4.0">
 				<img width="800" height="533" title="Révisable 1 v4.0" src="img/4_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 4.0</li>
