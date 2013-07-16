@@ -47,7 +47,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v6.1/PIECE">on GitHub</a></li>
 				</ul>
 			</div>
-			<div class="vbox current" id="v6.0">
+			<div class="vbox" id="v6.0">
 				<img width="800" height="533" title="Révisable 1 v6.0" src="img/6_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 6.0</li>
