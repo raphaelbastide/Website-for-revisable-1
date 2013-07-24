@@ -39,7 +39,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div id="versions" class="contentbox">
 		<div class="inner">
 			<div class="vbox current" id="v7.0">
-				<img width="800" height="533" title="Révisable 1 v7.0" src="img/6_1.jpg" />
+				<img width="800" height="533" title="Révisable 1 v7.0" src="img/7_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 7.0 (bug fix)</li>
 					<li class="contributor">contributor: Tigre Radio</li>
