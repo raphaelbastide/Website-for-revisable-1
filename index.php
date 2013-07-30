@@ -38,7 +38,18 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div class="main-content">
 	<div id="versions" class="contentbox">
 		<div class="inner">
-			<div class="vbox current" id="v7.0">
+			<div class="vbox current" id="v8.0">
+				<img width="800" height="533" title="Révisable 1 v8.0" src="img/8_0.jpg" />
+				<ul class="caption">
+					<li class="version">version: 8.0</li>
+					<li class="contributor">contributor: Raphaël</li>
+					<li class="date">date: 2013-07-30</li>
+					<li class="code">code: <a href="https://github.com/imalorg/revisable-1/blob/v8.0/PIECE">on GitHub</a></li>
+				</ul>
+			</div>
+	<div id="versions" class="contentbox">
+		<div class="inner">
+			<div class="vbox" id="v7.0">
 				<img width="800" height="533" title="Révisable 1 v7.0" src="img/7_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 7.0</li>
