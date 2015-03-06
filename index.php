@@ -31,6 +31,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 			<nav role="navigation" class="menu">
 				<ul>
 					<li class="h1"><a href="#about">About</a></li>
+          <li class="h1"><a href="#versions">Versions</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -39,7 +40,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
     <div id="about" class="readme textbox">
       <?php echo markdown($readme); ?>
     </div>
-  	<div id="versions" class="contentbox textboxes">
+  	<div id="versions" class="contentbox">
   		<div class="inner">
         <h1>Versions</h1>
   			<div class="vbox" id="v11.0">
