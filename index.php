@@ -27,19 +27,19 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<header>
 		<div class="titles">
 			<h1>Révisable 1</h1>
-			<h2>Versioned physical sculpture exposed at iMAL, Brussels</h2>
+			<h2>Versioned physical sculpture at iMAL, Brussels</h2>
 			<nav role="navigation" class="menu">
 				<ul>
-					<li class="h1"><a href="#versions">Versions</a></li>
+					<li class="h1"><a href="#about">About</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<div class="main-content">
+    <div id="about" class="readme textbox">
+      <?php echo markdown($readme); ?>
+    </div>
   	<div id="versions" class="contentbox">
-      <div class="readme textbox">
-  			<?php echo markdown($readme); ?>
-  		</div>
   		<div class="inner">
   			<div class="vbox" id="v11.0">
   				<img width="800" height="533" title="Révisable 1 v11.0" src="img/11_0.jpg" />
@@ -171,7 +171,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
   	</div>
   	<div id="textboxes" class="contentbox">
   		<div class="piece textbox">
-  			<h2>Current code</h2>
+  			<h2>Last code</h2>
   			<pre><?php echo markdown($piece); ?></pre>
   		</div>
   		<div class="instructions textbox">
