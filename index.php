@@ -39,7 +39,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
     <div id="about" class="readme textbox">
       <?php echo markdown($readme); ?>
     </div>
-  	<div id="versions" class="contentbox">
+  	<div id="versions" class="contentbox textboxes">
   		<div class="inner">
         <h1>Versions</h1>
   			<div class="vbox" id="v11.0">
