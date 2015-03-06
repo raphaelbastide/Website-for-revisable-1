@@ -38,7 +38,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 	<div class="main-content">
 	<div id="versions" class="contentbox">
 		<div class="inner">
-			<div class="vbox current" id="v11.0">
+			<div class="vbox" id="v11.0">
 				<img width="800" height="533" title="Révisable 1 v11.0" src="img/11_0.jpg" />
 				<ul class="caption">
 					<li class="version">version: 11.0</li>
@@ -173,10 +173,6 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
 		<div class="piece textbox">
 			<h2>Current code</h2>
 			<pre><?php echo markdown($piece); ?></pre>
-		</div>
-		<div class="calendar">
-			<h2>Calendar</h2>
-			<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=550&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=6t1d3866v675jhfkhhoeo5l4u0%40group.calendar.google.com&amp;color=%23333333&amp;ctz=Europe%2FParis" style=" border-width:0 " width="550" height="550" frameborder="0" scrolling="no"></iframe>
 		</div>
 		<div class="instructions textbox">
 			<?php echo markdown($instructions); ?>
