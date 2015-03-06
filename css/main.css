@@ -23,7 +23,7 @@ header{
 }
 
 nav{
-   margin-top:20px; 
+   margin-top:20px;
 }
 nav li{
     list-style-type:none;
@@ -45,17 +45,21 @@ nav li.H3{
     margin-left:20px;
 }
 .main-content{
-    border-left:1px solid black;
+  border-left:1px solid black;
 	margin:0 0 0 200px;
-    padding:0 0 50px 50px;
+  padding:20px 0 50px 50px;
 }
 #versions{
-    padding-top:110px;
+  padding-top:80px;
 	overflow:hidden;
 }
 #textboxes{
 	width:100%;
 	z-index:3;
+}
+
+#about h1{
+  display:none;
 }
 div.textbox{
 	width:100%;

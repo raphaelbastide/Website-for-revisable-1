@@ -41,6 +41,7 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
     </div>
   	<div id="versions" class="contentbox">
   		<div class="inner">
+        <h1>Versions</h1>
   			<div class="vbox" id="v11.0">
   				<img width="800" height="533" title="Révisable 1 v11.0" src="img/11_0.jpg" />
   				<ul class="caption">
@@ -170,10 +171,6 @@ $contributors = file_get_contents(__DIR__. '/cache/CONTRIBUTORS');
   		</div>
   	</div>
   	<div id="textboxes" class="contentbox">
-  		<div class="piece textbox">
-  			<h2>Last code</h2>
-  			<pre><?php echo markdown($piece); ?></pre>
-  		</div>
   		<div class="instructions textbox">
   			<?php echo markdown($instructions); ?>
   		</div>
